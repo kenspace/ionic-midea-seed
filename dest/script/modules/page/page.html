@@ -1,0 +1,21 @@
+<ion-view cache-view="false">
+    <ion-nav-bar class="bar-positive" align-title="center">
+        <ion-nav-buttons side="left">
+            <history-back></history-back>
+        </ion-nav-buttons>
+        <ion-nav-title>
+            Page
+        </ion-nav-title>
+        <ion-nav-buttons side="right">
+            <ion-item ng-click="goBack()" class="nav-bar-button">
+                <i class="ion-navicon-round color-white"></i>
+            </ion-item>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+
+    <ion-content >
+        <ion-item ng-click="goURL('index')">Index</ion-item>
+        <ion-item ng-click="goURL('page')">Page</ion-item>
+    </ion-content>
+
+</ion-view>

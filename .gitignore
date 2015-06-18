@@ -4,6 +4,16 @@ ehthumbs.db
 
 # Folder config file
 Desktop.ini
+node_modules
+www/cordova.js
+www/cordova_plugins.js
+www/CubeModule.json
+www/plugins
+dest/cordova.js
+dest/cordova_plugins.js
+dest/CubeModule.json
+dest/plugins
+.idea
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
